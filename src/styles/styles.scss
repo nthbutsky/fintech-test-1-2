@@ -1,0 +1,35 @@
+@import '~normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+  background: linear-gradient(
+    91.55deg,
+    hsl(243, 70%, 56%) 0.76%,
+    hsl(264, 64%, 55%) 98.12%
+  );
+}
+
+.main {
+  height: 100%;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  span {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  &__task-wrapper {
+    padding: 200px;
+  }
+
+  &__task-one-output {
+    margin: 20px;
+  }
+}
